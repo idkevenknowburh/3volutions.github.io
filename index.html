@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub.io Page</title>
+    <!-- Use Tailwind CSS for easy, modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Use Inter font for a clean, modern look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 min-h-screen flex items-center justify-center p-4">
+
+    <!-- Main container for the content -->
+    <div class="bg-white rounded-lg shadow-xl p-8 max-w-2xl w-full text-center">
+
+        <!-- Title section -->
+        <h1 class="text-4xl font-bold mb-4">Welcome to My Page!</h1>
+        <p class="text-gray-600 text-lg mb-8">
+            This website is powered by GitHub Pages. You can use this as a homepage for your portfolio, blog, or any project you'd like to share.
+        </p>
+
+        <!-- Code showcase section -->
+        <div class="bg-gray-900 text-white rounded-lg p-6 text-left mb-8">
+            <h2 class="text-xl font-semibold mb-4">Example Code</h2>
+            <p class="text-gray-400 mb-2">Here's a simple Python script to showcase your work:</p>
+            <pre class="overflow-x-auto"><code>
+def greet(name):
+    """
+    This function prints a greeting.
+    """
+    print(f"Hello, {name}!")
+
+if __name__ == "__main__":
+    greet("GitHub Pages User")
+            </code></pre>
+        </div>
+
+        <!-- Call-to-action or footer section -->
+        <p class="text-gray-500 text-sm">
+            Edit this file to make it your own. Start building something amazing!
+        </p>
+    </div>
+
+</body>
+</html>
